@@ -8585,10 +8585,14 @@ blockquote::before {
   background-color: #22c8e5;
 }
 .btn.style3 {
-  background-color: #e36e91;
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-color: #522cea;
+  color: #522cea;
 }
 .btn.style3:hover {
-  background-color: #d72e60;
+  background-color: #522cea;
+  color: #ffffff;
 }
 .btn.style4 {
   background-color: #738ee4;
@@ -12091,7 +12095,7 @@ input[type=number] {
 .content-separete-border {
   display: block;
   height: 3px;
-  width: 40px;
+  width: 50px;
   background-color: #522cea;
 }
 
