@@ -226,11 +226,9 @@ button:focus {
   -webkit-transform: translateY(-150%);
   -ms-transform: translateY(-150%);
   transform: translateY(-150%);
-  background-color: #f1f1f1;
+  background-color: #fff;
   width: 100%;
   z-index: 100;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .nav-sticky.sticky-header .xs-logo {
   padding: 23px 0;
@@ -560,6 +558,10 @@ button:focus {
 
 .nav-sticky.sticky-header .xs-menus .nav-menu > li > a {
   color: #000000;
+}
+
+.nav-sticky.sticky-header .xs-menus .nav-menu > li > a:hover {
+  color: #ffb27d;
 }
 .nav-sticky.sticky-header .xs-menus .single-page-menu > li > a {
   padding: 29px 0;
